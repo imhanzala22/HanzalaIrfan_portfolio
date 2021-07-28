@@ -2,3 +2,43 @@
   width: 80%;
   margin: auto;
 }
+.btn {
+  color: white;
+  background-color: #4caf50;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  margin: 50px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+.btn :hover {
+  background-color: lightgreen;
+  color: white;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+:root {
+  --primary: #6eb943;
+  --lightGreen: #059669;
+  --lightOrange: #ffad45;
+  --txtWhite: #ffffff;
+  --BgColor: #fafafa;
+  --CardColor: #ffffff;
+  --black: black;
+  --white: #fff;
+  --txtBlack: #4a4a4a;
+  --txtGrey: #b7b7b7;
+  --iconGrey: #bdbdbd;
+  --darkGrey: #6b7280;
+  --lightGrey: #e6e4e4;
+  --grey: grey;
+  --lightGrey: #f2f2f2;
+  --iconSize: 24;
+  --bold: bold;
+  --red: red;
+}
