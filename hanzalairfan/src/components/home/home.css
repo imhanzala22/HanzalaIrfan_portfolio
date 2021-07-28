@@ -1,0 +1,16 @@
+.testing {
+  text-align: center;
+}
+.flexuse {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.left_box {
+  flex: 50%;
+}
+
+.right_Box {
+  flex: 50%;
+}
