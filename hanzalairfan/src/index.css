@@ -4,7 +4,7 @@
 }
 .btn {
   color: white;
-  background-color: #4caf50;
+  background-color: var(--primary);
   text-align: center;
   text-decoration: none;
   border: none;
@@ -23,8 +23,8 @@
 }
 
 :root {
-  --primary: #6eb943;
-  --lightGreen: #059669;
+  --primary: #5c85d6;
+  --lightGreen: #6a5acd;
   --lightOrange: #ffad45;
   --txtWhite: #ffffff;
   --BgColor: #fafafa;

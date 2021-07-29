@@ -8,7 +8,7 @@ const ServiceCard = () => {
       
       <h2 className='head2'> Services</h2>
       <h1 className='head1'>What I Do</h1>
-
+      
 	<div className="containers">
 
         

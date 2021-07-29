@@ -27,6 +27,9 @@
 .right_Box {
   justify-content: center;
 }
+.right_Box svg {
+  color: var(--lightGreen);
+}
 
 .right_Box img {
   height: 400px;
