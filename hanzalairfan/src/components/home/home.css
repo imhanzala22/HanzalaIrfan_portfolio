@@ -39,7 +39,7 @@
   font-size: 60px;
   font-weight: 600;
   margin-left: -3px;
-  color: green;
+  color: var(--lightGreen);
   text-transform: uppercase;
 }
 .left_box .text3 {
@@ -48,6 +48,6 @@
 }
 
 .left_box .text3 span {
-  color: green;
+  color: --lightgreen;
   font-weight: 400px;
 }

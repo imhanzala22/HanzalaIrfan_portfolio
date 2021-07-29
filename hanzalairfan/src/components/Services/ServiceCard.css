@@ -1,0 +1,100 @@
+.containers {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+}
+.containers .card {
+  position: relative;
+}
+.containers .card .item {
+  width: 380px;
+  height: 200px;
+  transition: 0.5s;
+}
+.containers .card .item svg {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.containers .card .item.item1 {
+  position: relative;
+  background-color: var(--lightGreen);
+  justify-content: center;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  transform: translateY(100px);
+}
+.containers .card:hover .item.item1 {
+  transform: translateY(0);
+  background-color: var(--primary);
+}
+.containers .card .item.item1 .content {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.containers .card:hover .item.item1 .content {
+  opacity: 1;
+}
+.containers .card .item.item1 h3 {
+  color: #fff;
+  padding: 0em;
+  text-align: center;
+  margin: 10px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+}
+.containers .card .item.item2 {
+  position: relative;
+  background-color: var(--BgColor);
+  justify-content: center;
+  display: inline-table;
+  align-items: center;
+  padding: 25px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  transform: translateY(-100px);
+}
+.containers .card:hover .item.item2 {
+  transform: translateY(0);
+  background-color: #fff;
+}
+.containers .card .item.item2 p {
+  padding: 0em;
+  margin: 0em;
+  color: rgb(78, 77, 77);
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.containers .card .item.item2 a {
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  border: 1px solid var(--primary);
+  transition: 0.5s;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.containers .card .item.item2 a:hover {
+  background-color: var(--primary);
+  color: #fff;
+  transition: 0.5s;
+}
+.head2 {
+  text-align: center;
+  color: var(--red);
+  -top: 30px;
+}
+.head1 {
+  text-align: center;
+  color: var(--txtGrey);
+}

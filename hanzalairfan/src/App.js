@@ -1,5 +1,7 @@
 import Home from "./components/home/home";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import ServiceCard from "./components/Services/ServiceCard";
+
 
 function App() {
   return (
@@ -7,7 +9,10 @@ function App() {
   
     
     <Switch>
-    <Route path="/" exact component={Home} />       
+    
+    <Route path="/ServiceCard" exact component={ServiceCard} />     
+    <Route path="/" exact component={Home} />     
+
    </Switch>
   
   </Router>
