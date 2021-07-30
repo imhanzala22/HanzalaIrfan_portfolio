@@ -1,0 +1,21 @@
+.cform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cform input {
+  margin: 20px;
+}
+.cform input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--primary);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 0 0 6px 16px;
+  resize: vertical;
+  outline: none;
+  text-transform: uppercase;
+}

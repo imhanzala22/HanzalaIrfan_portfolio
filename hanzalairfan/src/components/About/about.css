@@ -1,11 +1,14 @@
 .Aflex {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 .asvg {
-  height: 400px;
-  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 50%;
   padding-left: 40px;
 }
@@ -16,18 +19,21 @@
   text-align: left;
   padding-right: 30px;
 }
-.adescription Span {
+.adescription span {
   font-size: 30px;
   font-weight: 600;
   color: var(--primary);
 }
 .socialsvg ul {
   display: flex;
-  justify-content: space-evenly;
-  margin: 10px 10px;
+  justify-content: center;
+  /* margin: 10px 10px; */
   padding: 10px 0;
   width: 100%;
   list-style: none;
+}
+.socialsvg ul li {
+  margin: 0 10px;
 }
 
 .lowerbtn {

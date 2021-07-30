@@ -1,0 +1,57 @@
+.card {
+  width: 250px;
+  margin: 30px;
+  height: 100px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+.cards {
+  display: flex;
+}
+
+.card::before {
+  content: " ";
+  z-index: 5;
+  height: 180px;
+  position: absolute;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  width: 1000px;
+  top: -120px;
+  left: -210px;
+}
+.card::after {
+  content: " ";
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  height: 180px;
+  position: absolute;
+  -webkit-transform: rotate(106deg);
+  -ms-transform: rotate(106deg);
+  transform: rotate(106deg);
+  width: 1000px;
+  top: -210px;
+  left: -470px;
+  opacity: 0.5;
+}
+.pricing__name {
+  text-transform: uppercase;
+  font-size: 16px;
+  position: relative;
+  z-index: 6;
+  color: var(--primary);
+  text-align: center;
+}
+.cicon {
+  z-index: 6;
+  color: var(--primary);
+  text-align: center;
+}
