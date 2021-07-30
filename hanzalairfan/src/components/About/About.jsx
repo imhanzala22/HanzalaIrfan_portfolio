@@ -2,6 +2,7 @@ import React from 'react';
 import {AiFillTwitterCircle,AiFillFacebook,AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import './about.css';
 import image from '../../Assets/svg/profile.svg';
+import Education from './Education';
 const About = () => {
     return (
         <div >
@@ -37,7 +38,9 @@ const About = () => {
                 <button className='btn'>Expernience</button>
                 <button className='btn'>Education</button>
             </div>
-
+                <div>
+                    <Education/>
+                </div>
         </div>
      );
 }
