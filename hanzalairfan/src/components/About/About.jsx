@@ -3,6 +3,7 @@ import {AiFillTwitterCircle,AiFillFacebook,AiFillLinkedin,AiFillGithub} from 're
 import './about.css';
 import image from '../../Assets/svg/profile.svg';
 import Education from './Education';
+import Experience from './Experience';
 const About = () => {
     return (
         <div >
@@ -39,7 +40,8 @@ const About = () => {
                 <button className='btn'>Education</button>
             </div>
                 <div>
-                    <Education/>
+                    {/* <Education/> */}
+                    <Experience/>
                 </div>
         </div>
      );

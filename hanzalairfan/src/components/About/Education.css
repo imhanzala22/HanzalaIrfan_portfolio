@@ -1,4 +1,4 @@
-.card {
+.Ecard {
   width: 250px;
   margin: 30px;
   height: 300px;
@@ -6,13 +6,14 @@
   border-radius: 20px;
   position: relative;
   overflow: hidden;
-  padding: 30px;
+  padding: 20px;
+  padding-top: 70px;
   transform-style: preserve-3d;
   perspective: 1000px;
   text-align: center;
 }
 
-.card::before {
+.Ecard::before {
   content: " ";
   z-index: 5;
   height: 180px;
@@ -25,11 +26,11 @@
   left: -210px;
 }
 
-.card__1::before {
+.Ecard__1::before {
   background: var(--primary);
 }
 
-.card::after {
+.Ecard::after {
   content: " ";
   right: 0;
   left: 0;
@@ -58,6 +59,7 @@
 .pricing__name__1 {
   color: White;
 }
-.edcard {
+.edEcard {
   display: flex;
+  flex-wrap: wrap;
 }

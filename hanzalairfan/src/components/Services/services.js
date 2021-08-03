@@ -48,7 +48,4 @@ export const Services =[
 
 }
 
-
-
-
 ]

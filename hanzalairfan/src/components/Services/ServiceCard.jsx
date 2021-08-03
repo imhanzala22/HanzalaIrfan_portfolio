@@ -17,7 +17,7 @@ const ServiceCard = () => {
 
 
              return (
-            <div className="card" key={Service.id}>
+            <div className="card1" key={Service.id}>
                 <div className="item item1">
                     <div className="content">
                      {Service.icon}  
