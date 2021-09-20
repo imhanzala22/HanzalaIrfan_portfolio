@@ -9,7 +9,7 @@ export const Experiences =[
     ,
     {
         id:2,
-        position:"MERN STACK DEVELOPER",
+        title:"MERN STACK DEVELOPER",
         description:" will be described after utilizing a job",
         availability:" not avaialable",
         working:"Present"
@@ -17,7 +17,7 @@ export const Experiences =[
     ,
     {
         id:3,
-        position:"MERN STACK DEVELOPER",
+        title:"MERN STACK DEVELOPER",
         description:" will be described after utilizing a job",
         availability:" not avaialable",
         working:"Present"

@@ -27,7 +27,7 @@
 .socialsvg ul {
   display: flex;
   justify-content: center;
-  /* margin: 10px 10px; */
+  margin: 10px 10px;
   padding: 10px 0;
   width: 100%;
   list-style: none;
@@ -39,4 +39,7 @@
 .lowerbtn {
   display: flex;
   justify-content: center;
+}
+.socialsvg svg {
+  font-size: 24px;
 }

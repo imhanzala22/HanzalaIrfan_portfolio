@@ -1,6 +1,6 @@
 .card {
-  width: 250px;
-  margin: 30px;
+  width: calc(33.33% - 120px);
+  margin: 40px;
   height: 100px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
@@ -42,7 +42,7 @@
   left: -470px;
   opacity: 0.5;
 }
-.pricing__name {
+.contact .pricing__name {
   text-transform: uppercase;
   font-size: 16px;
   position: relative;

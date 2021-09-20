@@ -1,0 +1,41 @@
+.portfolio_card {
+  display: flex;
+  height: 400px;
+  margin: 50px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.portfolio_card.left {
+  flex-direction: row;
+}
+.portfolio_card.right {
+  flex-direction: row-reverse;
+}
+
+.port_card {
+  width: 60%;
+}
+.port_card img {
+  width: 100%;
+  height: 100%;
+}
+
+.port_texts {
+  width: calc(40% - 40px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.port_texts p {
+  text-align: justify;
+}
+
+.port_texts.left {
+  align-items: flex-start;
+}
+
+.port_texts.right {
+  align-items: flex-end;
+}

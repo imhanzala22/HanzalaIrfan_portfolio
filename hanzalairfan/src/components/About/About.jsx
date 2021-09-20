@@ -18,8 +18,8 @@ const About = () => {
                     <ul >
                         <li > <a href="#"><AiFillTwitterCircle/> </a></li>
                         <li > <a href="#"><AiFillFacebook/></a></li>
-                        <li > <a href='#'><AiFillLinkedin/> </a></li>
-                        <li > <a href="#"><AiFillGithub/></a></li>
+                        <li > <a href='https://www.linkedin.com/in/hanzala-irfan-05bba6208'><AiFillLinkedin/> </a></li>
+                        <li > <a href="https://github.com/imhanzala22"><AiFillGithub/></a></li>
                     </ul>
                 </div>
                 </div>
@@ -30,7 +30,7 @@ const About = () => {
                         My Hobbies are to explore new tech technique and implement them for the ease of people.
                     </p>
                     <button className='btn'>Hire Me</button>
-                    <button className='btn'>Download Cv</button>
+                    <button className='btn'><a href="cv.pdf">Download Cv</a> </button>
                 </div>
             </div>
 
@@ -40,8 +40,8 @@ const About = () => {
                 <button className='btn'>Education</button>
             </div>
                 <div>
-                    {/* <Education/> */}
-                    <Experience/>
+                    <Education/>
+                    {/* <Experience/> */}
                 </div>
         </div>
      );

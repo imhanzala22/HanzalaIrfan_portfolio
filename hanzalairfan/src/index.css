@@ -1,3 +1,6 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -42,4 +45,13 @@
   --iconSize: 24;
   --bold: bold;
   --red: red;
+}
+
+#center {
+  text-align: center;
+}
+#line {
+  background-color: var(--primary);
+  height: 5px;
+  width: 100%;
 }
