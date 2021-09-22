@@ -1,10 +1,12 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import {AiFillTwitterCircle,AiFillFacebook,AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import './about.css';
 import image from '../../Assets/svg/profile.svg';
 import Education from './Education';
 import Experience from './Experience';
+import Skills from './Skills';
 const About = () => {
+    const [check,setcheck]=useState('skill');
     return (
         <div >
             <div>
@@ -35,16 +37,17 @@ const About = () => {
             </div>
 
             <div className='lowerbtn'>
-                <button className='btn'>Skills</button>
-                <button className='btn'>Expernience</button>
-                <button className='btn'>Education</button>
+                <button className='btn' onClick={() => setcheck('skill')}>Skills</button>
+                <button className='btn' onClick={()=>setcheck('experience')}>Expernience</button>
+                <button className='btn' onClick={()=>setcheck('education')}>Education</button>
             </div>
                 <div>
-                    <Education/>
-                    {/* <Experience/> */}
+                    {check === 'education' ? <Education/> : null}
+                    {check === 'experience' ? <Experience/> : null}
+                    {check === 'skill' ? <Skills /> : null}
                 </div>
         </div>
      );
 }
  
-export default About;
+export default About;  

@@ -4,9 +4,10 @@
   align-items: center;
 }
 .cform input {
-  margin: 20px;
+  margin: 10px;
 }
 .cform input[type="text"],
+.cform input[type="email"],
 select,
 textarea {
   width: 100%;
@@ -17,5 +18,4 @@ textarea {
   margin: 0 0 6px 16px;
   resize: vertical;
   outline: none;
-  text-transform: uppercase;
 }
