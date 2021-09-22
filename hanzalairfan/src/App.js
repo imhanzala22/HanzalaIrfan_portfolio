@@ -5,13 +5,14 @@ import About from "./components/About/About";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Navbar from "./components/navs/Navbar";
 
 
 function App() {
   return (
     <Router>
   
-    
+    <Navbar/>
     <Switch>
     
     <Route path="/ServiceCard" exact component={ServiceCard} />     

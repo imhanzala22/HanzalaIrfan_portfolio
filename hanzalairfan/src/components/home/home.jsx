@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './home.css';
-import image from '../../Assets/image/user.svg'
+import image from '../../Assets/svg/home.svg'
 const Home = () => {
     return (
         
@@ -11,7 +12,7 @@ const Home = () => {
                     <div className='text2'> Hanzala Irfan </div>
                     <div className='text3'><span> MERN </span> Stack Developer</div>
             
-                        <button className='btn'>Explore more</button>
+                        <button className='btn'> <Link to="/about"> Explore more</Link></button>
             
 
                 </div>

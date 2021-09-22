@@ -1,10 +1,12 @@
 import React ,{useState} from 'react';
+import { Link } from 'react-router-dom';
 import {AiFillTwitterCircle,AiFillFacebook,AiFillLinkedin,AiFillGithub} from 'react-icons/ai';
 import './about.css';
 import image from '../../Assets/svg/profile.svg';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import CV from '../../Assets/Cv/cv.pdf'
 const About = () => {
     const [check,setcheck]=useState('skill');
     return (
@@ -31,8 +33,8 @@ const About = () => {
                         in differnet languages including C ,Java and SQL. 
                         My Hobbies are to explore new tech technique and implement them for the ease of people.
                     </p>
-                    <button className='btn'>Hire Me</button>
-                    <button className='btn'><a href="cv.pdf">Download Cv</a> </button>
+                    <button className='btn'><Link to="/contact">Hire Me</Link></button>
+                    <button className='btn'><a href={CV} download="Hanzala Irfan">Download</a></button>
                 </div>
             </div>
 
