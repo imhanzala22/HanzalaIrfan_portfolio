@@ -15,11 +15,12 @@ const About = () => {
                 <h2 className='head2'>Main Info</h2>
                 <h1 className='head1'>About Me</h1>
             </div>
-            <div className='Aflex'>           
-             <div className='asvg'>
-                <img src={image} alt="resolve your error" />
+
+            <div className='maintheme'>
+                <div className='svgbox'>
+                <img className='svg_allignment' src={image} alt="resolve your error" />
                 <div className='socialsvg'>
-                    <ul >
+                <ul >
                         <li > <a href="#"><AiFillTwitterCircle/> </a></li>
                         <li > <a href="#"><AiFillFacebook/></a></li>
                         <li > <a href='https://www.linkedin.com/in/hanzala-irfan-05bba6208'><AiFillLinkedin/> </a></li>
@@ -27,17 +28,24 @@ const About = () => {
                     </ul>
                 </div>
                 </div>
-                <div className='adescription'>
+                <div className='text_box'>
+                    <div className='text_setting'>
                     <p> Hey, Hope you are having great time!</p><p> My name is <span> Hanzala Irfan </span> and I am a MERN stack developer
                         i have been working in <span> MERN Stack </span> from more than year along with i have experince of more than years
-                        in differnet languages including C ,Java and SQL. 
+                        in differnet languages including C ,Java and MySQL. 
                         My Hobbies are to explore new tech technique and implement them for the ease of people.
                     </p>
-                    <button className='btn'><Link to="/contact">Hire Me</Link></button>
-                    <button className='btn'><a href={CV} download="Hanzala Irfan">Download</a></button>
-                </div>
-            </div>
 
+                    </div>
+                   
+                    <div className='about_btn_allignment'>
+                    <button className='btn'><Link to="/contact">Hire Me here</Link></button>
+                    <button className='btn'><a href={CV} download="Hanzala Irfan">Download Cv</a></button>
+                    </div>
+                </div>
+
+            </div>
+            
             <div className='lowerbtn'>
                 <button className='btn' onClick={() => setcheck('skill')}>Skills</button>
                 <button className='btn' onClick={()=>setcheck('experience')}>Expernience</button>

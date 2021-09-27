@@ -41,28 +41,28 @@ const Skills = () => {
       <div className='skills_sliders container'>
       
         <Slider {...settings}>
-          <div id='center'>
+          <div id='center' className='skill_card'>
             <h3>html</h3>
           </div>
-          <div id='center'>
+          <div id='center'className='skill_card'>
             <h3>css</h3>
           </div>
-          <div id='center'>
+          <div id='center'className='skill_card'>
             <h3>bootstrap</h3>
           </div>
-          <div id='center'>
+          <div id='center'className='skill_card'>
             <h3>javascript</h3>
           </div>
-          <div id='center'>
-            <h3>React</h3>
+          <div id='center' className='skill_card'>
+            <h3>Reactjs</h3>
           </div>
-          <div id='center'>
+          <div id='center' className='skill_card'>
             <h3>Redux</h3>
           </div>
-          <div id='center'>
+          <div id='center'className='skill_card'>
             <h3>Nodejs</h3>
           </div>
-          <div id='center'>
+          <div id='center'className='skill_card'>
             <h3>Express</h3>
           </div>
         </Slider>

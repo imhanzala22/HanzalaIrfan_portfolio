@@ -1,0 +1,99 @@
+.Aflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.asvg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 50%;
+  padding-left: 40px;
+  background-color: black;
+}
+.adescription {
+  flex: 50%;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  /* padding-right: 30px; */
+  background-color: red;
+}
+.adescription span {
+  font-size: 30px;
+  font-weight: 600;
+  /* color: var(--primary); */
+}
+.socialsvg ul {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  padding: 10px 0;
+  width: 100%;
+  list-style: none;
+}
+.socialsvg ul li {
+  margin: 0 10px;
+}
+
+.lowerbtn {
+  display: flex;
+  justify-content: center;
+}
+.socialsvg svg {
+  font-size: 24px;
+}
+
+.maintheme {
+  display: flex;
+  margin: 20px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.svgbox {
+  /* background-color: darkcyan; */
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text_box {
+  /* background-color: yellow; */
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.text_setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.svg_allignment {
+  width: 80%;
+  height: 80%;
+}
+.about_btn_allignment {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.social_svg_setting {
+  display: flex;
+}
