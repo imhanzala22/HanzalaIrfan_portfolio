@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 import image from '../../Assets/svg/home.svg'
+import Particles from 'react-particles-js';
 const Home = () => {
     return (
         
+        
     <div  className='container home' >
+
             <div className='flexuse'>
                 <div className='left_box'>
                     <div className='text1'>hey,  My Name is</div>
@@ -22,6 +25,7 @@ const Home = () => {
         
            </div>
     </div>
+    
      );
 }
  

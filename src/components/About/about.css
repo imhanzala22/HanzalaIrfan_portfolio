@@ -97,3 +97,35 @@
 .social_svg_setting {
   display: flex;
 }
+
+@media screen and (max-width: 1024px) {
+  .Aflex {
+    height: 100%;
+  }
+
+  .maintheme {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .svgbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .text_box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 840px) {
+  .lowerbtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_btn_allignment {
+    display: flex;
+    flex-direction: column;
+  }
+}

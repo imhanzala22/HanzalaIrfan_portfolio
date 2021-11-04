@@ -39,3 +39,20 @@
 .port_texts.right {
   align-items: flex-end;
 }
+@media screen and (max-width: 1024px) {
+  .portfolio_card.left {
+    flex-direction: column;
+  }
+  .portfolio_card.right {
+    flex-direction: column-reverse;
+  }
+  .portfolio_card {
+    height: 100%;
+  }
+  .port_card {
+    width: 100%;
+  }
+  .port_texts {
+    width: calc(100% - 40px);
+  }
+}
