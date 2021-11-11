@@ -32,7 +32,7 @@ export const projects =[
         id :4,
         title: "MY Shop",
         desc:"This is website for MY SHOP store. I used html,css and bootstrap to develop it. It was frontend only",
-        alignment: "left",
+        alignment: "right",
         img: img4
     },
     {
@@ -46,7 +46,7 @@ export const projects =[
         id :6,
         title: "Mirror",
         desc:"This is website for mirror newspaper. I used html,css and bootstrap to develop it.",
-        alignment: "left",
+        alignment: "right",
         img: img6
     },
     {
@@ -60,7 +60,7 @@ export const projects =[
         id :8,
         title: "Edruka cources",
         desc:"This is website for E-commerce store. I used html,css,bootstrap,mongoDB,Express to develop it. MongonDB was also used as main part of it. Routers and modules are working accurately",
-        alignment: "left",
+        alignment: "right",
         img: img8
     }
 ];

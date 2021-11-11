@@ -127,5 +127,18 @@
   .about_btn_allignment {
     display: flex;
     flex-direction: column;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px 0;
+    padding-right: 10px;
   }
 }
