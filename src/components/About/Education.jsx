@@ -20,7 +20,7 @@ const Education = () => {
                         <h1>2015-2017</h1>
                     </div>
                     <div id="Ecard__1" class="Ecard Ecard__1">
-                        <h3 class="pricing__name pricing__name__1">BS Software Engineering</h3>
+                        <h3 class="pricing__name pricing__name__1">BS(SoftwareEngineering)</h3>
                         <h2>CUI LAHORE</h2>
                         <p> Currently enrolled</p>
                         <h2>LAHORE</h2>

@@ -36,7 +36,7 @@
   left: 0;
   top: 0;
   z-index: 5;
-  height: 180px;
+  height: 120px;
   position: absolute;
   -webkit-transform: rotate(106deg);
   -ms-transform: rotate(106deg);
@@ -57,6 +57,7 @@
   top: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
+  line-height: 200;
 }
 
 .pricing__name__1 {
@@ -66,4 +67,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 400px) {
+  .Ecard {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .Ecard::before {
+    width: 500px;
+  }
 }

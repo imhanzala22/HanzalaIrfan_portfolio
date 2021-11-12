@@ -1,6 +1,6 @@
 .card {
-  width: calc(33.33% - 120px);
-  margin: 40px;
+  width: calc(33.33% - 100px);
+  margin: 30px;
   height: 100px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
@@ -49,6 +49,7 @@
   z-index: 6;
   color: var(--primary);
   text-align: center;
+  line-height: normal;
 }
 .cicon {
   z-index: 6;
@@ -60,17 +61,28 @@
   .cards {
     display: flex;
     flex-direction: column;
+    width: calc(90% - 120px);
+    line-height: normal;
   }
   .card {
     width: calc(100% - 120px);
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
   .cards {
     display: flex;
     flex-direction: column;
+    width: 90%;
+    line-height: normal;
+    height: 5%;
+    padding-left: 40px;
   }
   .card {
     width: calc(100% - 120px);
+  }
+  .contact .pricing__name {
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
   }
 }
