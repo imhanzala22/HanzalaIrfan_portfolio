@@ -6,7 +6,7 @@ import image from '../../Assets/svg/profile.svg';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
-import CV from '../../Assets/Cv/cv.pdf'
+import CV from '../../Assets/Cv/Cv_of_HANZALA_IRFAN.pdf'
 const About = () => {
     const [check,setcheck]=useState('skill');
     return (
